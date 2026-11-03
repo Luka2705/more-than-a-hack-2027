@@ -62,3 +62,8 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# Import-Export: submissions, diagnostics, local validation and release archives.
+# Never publish provided match assets or frame-level derived data.
+artifacts/
+dist/
